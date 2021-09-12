@@ -1,4 +1,4 @@
-# L03E02: Matrix multiplication (exceptions)
+# L04E01: Matrix multiplication (exceptions)
 Balíček `argebra` (úkol [L03E02](https://github.com/kmi-jp/template-L03E02)) doplňte o následující výjimky.
 
 Funkce `vector.dot_product` vyvolá `ValueError` v případě, kdy nejsou vstupní vektory stejně dlouhé.
