@@ -32,7 +32,6 @@ matrix_2 = [
     [10, -2],
     [0, 20],
     [100, 2],
-    [2, 10]
 ]
 
 # ValueError, matice mají nesprávné vstupní rozměry
