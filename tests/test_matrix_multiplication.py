@@ -13,8 +13,8 @@ from algebra.matrix import matrix_multiplication
         ),
     ],
 )
-def test_dot_product(matrix_1, matrix_2, expected):
-    assert matrix_multiplication(matrix_1, matrix_2) == expected
+def test_matrix_multiplication(matrix_1, matrix_2, expected):
+    assert matrix_multiplication(matrix_1=matrix_1, matrix_2=matrix_2) == expected
 
 
 @pytest.mark.parametrize(
@@ -30,3 +30,7 @@ def test_dot_product(matrix_1, matrix_2, expected):
 def test_dot_product_exception(matrix_1, matrix_2):
     with pytest.raises(ValueError):
         matrix_multiplication(matrix_1, matrix_2)
+
+
+def test_docstrings():
+    assert matrix_multiplication.__doc__ is not None
