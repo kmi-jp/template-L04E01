@@ -1,7 +1,7 @@
 # L04E01: Matrix multiplication (exceptions)
 Balíček `algebra` (úkol [L03E02](https://github.com/kmi-jp/template-L03E02)) doplňte o následující výjimky.
 
-Funkce `vector.dot_product` vyvolá `ValueError` v případě, kdy nejsou vstupní vektory stejně dlouhé. Vyjimka `ValueError` by měla mít odpovídající **anglický** komentář problému.
+Funkce `vector.dot_product()` vyvolá `ValueError` v případě, kdy nejsou vstupní vektory stejně dlouhé. Vyjimka `ValueError` by měla mít odpovídající **anglický** komentář problému.
 
 Například tedy:
 
@@ -15,7 +15,7 @@ vector_2 = [3, 2, 1, 3]
 dot_product(vector_1, vector_2)
 ```
 
-Funkce `matrix.matrix_multiplication` vyvolá `ValueError` v případě, kdy matice nesplňují vhodné [vstupní podmínky](https://cs.wikipedia.org/wiki/Násoben%C3%AD_matic) (rozměry) pro násobení dvou matic.
+Funkce `matrix.matrix_multiplication()` vyvolá `ValueError` v případě, kdy matice nesplňují vhodné [vstupní podmínky](https://cs.wikipedia.org/wiki/Násoben%C3%AD_matic) (rozměry) pro násobení dvou matic.
 
 Například tedy:
 
